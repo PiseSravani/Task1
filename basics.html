@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #16a085;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .image {
+            max-width: 400px; 
+            height: auto;  
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            font-size: 1em;
+            color: #7f8c8d;
+        }
+        a {
+            color: #e67e22;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Festival!</h1>
+    </header>
+    <section>
+        <h2>About the Event</h2>
+        <p>Enjoy the colorful decorations, lively atmosphere, and exciting activities at our festival. It's a celebration full of joy and creativity!</p>
+        <img src="Festival Decorations.jpg" alt="Festival Decorations" class="image">
+        <p>Click the button below to see a message:</p>
+        <button onclick="showAlert()">Click Me!</button>
+        <p><a href="https://example.com" target="_blank">Visit Our Festival Page</a></p>
+    </section>
+    <footer>
+        <p>Created by Sravani</p>
+    </footer>
+    <script>
+        function showAlert() {
+            alert('Hello! Welcome to our festival celebration!');
+        }
+    </script>
+</body>
+</html>
